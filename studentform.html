@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Student Registration - Marwadi University</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    </style></head>
+    <body>
+         <header style="font-size:50px; color:white; background-color: rgb(91, 208, 208);" align="center">Marwadi University
+    </header>
+        <h1 align="center">Student Registration Form</h1><br><hr><br><br>
+        <form>
+            <label>Full Name : </label>
+            <input type="text" placeholder="Enter your name here" name="name" required><br><br>
+            <label>Father's Name : </label>
+            <input type="text" placeholder="Enter your name here" name="name" required><br><br>
+            <label>Mother's Name : </label>
+            <input type="text" placeholder="Enter your name here" name="name" required><br><br>
+            <label>Mobile Number : </label>
+            <input type="tel" placeholder="Enter here" maxlength="10" minlength="10" name="mobileno" required><br><br>
+            <label>Address: </label>
+            <textarea name="address" cols="50" rows="2" placeholder="Enter your address here" required></textarea><br><br>
+            <label>Nationality : </label>
+            <select name="nationality" placeholder="nationality" required> 
+                <option selected disabled hidden>Choose</option>
+                <option>Indian</option>
+                <option>American</option>
+                <option>African</option>
+                <option>Other</option>
+            </select><br><br>
+            <label required>Gender : </label>
+            <input type="radio" name="gender">Male 
+            <input type="radio" name="gender">Female
+            <input type="radio" name="gender">Other <br><br>
+            <label>Highest Degree : </label>
+            <select required>
+                <option selected disabled hidden>Choose</option>
+                <option>HSC</option>
+                <option>SSC</option>
+                <option>Diploma</option>
+                <option>Bachelor's</option>
+                <option>Master's</option>
+                <option>M.Phil.</option>
+                <option>Ph.D./Doctorate</option>
+            </select> <br><br>
+            <label>CPI : </label>
+            <input type="number" step="0.01" required> <br><br>
+            <label>University(if) : </label>
+            <input type="text"><br><br>
+            <label>Passing Year : </label>
+            <input type="number" maxlength="4" placeholder="Enter your passing year here" required><br><br>
+            <input type="Submit">
+            <input type="Reset"><br>
+                <footer align="center" style="color:white; background-color:rgb(91, 208, 208);"><a href="index.html">Home Page</a></footer>
+        </form>
+    </body>
+</html>
